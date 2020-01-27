@@ -7,8 +7,10 @@ class OrdenarCuentas
       tipo_cuenta.each do |tipo|
         #byebug
         if cuenta == tipo
+          puts "Entré al if"
           open(ruta_tipo_cuenta, "a") do |file|
             file.write(cuenta)
+            puts "Escribí en el archivo"
           end
         end
       end
@@ -48,5 +50,5 @@ ruta_act_corr_escritura = "archivos/act_corr_escritura.txt"
 ruta_act_no_corr_lectura = "archivos/act_no_corr_lectura.txt"
 ruta_act_no_corr_escritura = "archivos/act_no_corr_escritura.txt"
 
-orden.buscarArchivos(ruta, ruta_act_corr_lectura, ruta_act_corr_escritura)
+#orden.buscarArchivos(ruta, ruta_act_corr_lectura, ruta_act_corr_escritura)
 orden.buscarArchivos(ruta, ruta_act_no_corr_lectura, ruta_act_no_corr_escritura)
