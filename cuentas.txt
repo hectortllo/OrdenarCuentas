@@ -1,0 +1,37 @@
+Deudores
+Inmuebles
+Documentos por cobrar
+Equipo de computación
+Hipotecas
+Vehículos
+Gastos de organización
+Iva por pagar
+Caja
+Clientes
+Cuentas por cobrar
+Acreedores
+Mercaderías I
+Papelería y útiles existencia
+Material de empaque existencia
+Prestamos bancarios
+Intereses cobrados por anticipado
+Gastos de instalación
+Alquileres pagados por anticipado
+Derecho de llave
+Capital
+Depreciaciones
+Depreciaciones Acumuladas Inmuebles
+Depreciaciones Acumuladas Equipo De Computo
+Depreciaciones Acumuladas Vehículos
+Amortizaciones
+Amortizaciones Acumuladas Gastos De Organización
+Amortizaciones Acumuladas Gastos De instalacion
+Amortizaciones Acumuladas Derecho de llave
+Cuentas incobrables
+Reserva cuentas Incobrables
+Ventas
+Papelería y útiles consumidos
+Material de empaque consumido
+Compras
+Alquileres vencidos
+Intereses cobrados

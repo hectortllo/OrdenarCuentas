@@ -1,0 +1,8 @@
+Deudores
+Documentos por cobrar
+Caja
+Clientes
+Cuentas por cobrar
+Papelería y útiles existencia
+Material de empaque existencia
+Reserva cuentas Incobrables
