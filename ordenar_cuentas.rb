@@ -7,9 +7,10 @@ class OrdenarCuentas
       tipo_cuenta.each do |tipo|
         #byebug
         if cuenta == tipo
-          puts "entré al if"
+          puts "Entré al if"
           open(ruta_tipo_cuenta, "a") do |file|
             file.write(cuenta)
+            puts "Escribí en el archivo"
           end
         end
       end
@@ -39,27 +40,15 @@ class OrdenarCuentas
   end
 end
 
+
 orden = OrdenarCuentas.new
 
 #Rutas para los archivos
-ruta = "cuentas.txt"
-ruta_act_corr_lectura = "act_corr_lectura.txt"
-ruta_act_corr_escritura = "act_corr_escritura.txt"
+ruta = "archivos/cuentas.txt"
+ruta_act_corr_lectura = "archivos/act_corr_lectura.txt"
+ruta_act_corr_escritura = "archivos/act_corr_escritura.txt"
+ruta_act_no_corr_lectura = "archivos/act_no_corr_lectura.txt"
+ruta_act_no_corr_escritura = "archivos/act_no_corr_escritura.txt"
 
-orden.buscarArchivos(ruta, ruta_act_corr_lectura, ruta_act_corr_escritura)
-
-# #Si el archivo existe, realizar la búsqueda de las cuentas
-# if File.exist?(ruta)
-#   #Leyendo archivos
-#   activo_corriente = File.readlines(ruta_act_corr_lectura)
-#   cuentas = File.readlines(ruta)
-
-#   #Abriendo el archivo y limpiándolo
-#   act_corr_escritura = open(ruta_act_corr_escritura, "w")
-#   act_corr_escritura.write("")
-
-#   #Realizar la comparación de las cuentas
-#   orden.DevolverCuentas(cuentas, activo_corriente, ruta_act_corr_escritura)
-# else
-#   print("Archivo inexistente")
-# end
+#orden.buscarArchivos(ruta, ruta_act_corr_lectura, ruta_act_corr_escritura)
+orden.buscarArchivos(ruta, ruta_act_no_corr_lectura, ruta_act_no_corr_escritura)

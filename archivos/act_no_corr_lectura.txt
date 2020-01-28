@@ -1,0 +1,6 @@
+Inmuebles
+Equipo de computación
+Vehículos
+Depreciaciones Acumuladas Inmuebles
+Depreciaciones Acumuladas Equipo De Computo
+Depreciaciones Acumuladas Vehículos
